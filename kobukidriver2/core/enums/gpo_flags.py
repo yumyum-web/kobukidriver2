@@ -1,0 +1,18 @@
+from enum import IntEnum
+
+
+class GPOFlags(IntEnum):
+    DIGITAL_OUT_0 = 0x0001
+    DIGITAL_OUT_1 = 0x0002
+    DIGITAL_OUT_2 = 0x0004
+    DIGITAL_OUT_3 = 0x0008
+
+    POWER_3V3 = 0x0010
+    POWER_5V = 0x0020
+    POWER_12V_5A = 0x0040
+    POWER_12V_1_5A = 0x0080
+
+    LED1_RED = 0x0100
+    LED1_GREEN = 0x0200
+    LED2_RED = 0x0400
+    LED2_GREEN = 0x0800

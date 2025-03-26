@@ -10,6 +10,7 @@ packaging==24.2
 pathspec==0.12.1
 platformdirs==4.3.7
 pre_commit==4.2.0
+pyserial==3.5
 PyYAML==6.0.2
 setuptools==77.0.3
 virtualenv==20.29.3
