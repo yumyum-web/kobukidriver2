@@ -1,10 +1,8 @@
 from kobukidriver2.core.packet.command import Command
 
-GET_CONTROL_GAIN_PACKET_IDENTIFIER = 0x0E
 
-
-class SetControllerGain(Command):
-    identifier = GET_CONTROL_GAIN_PACKET_IDENTIFIER
+class GetControllerGain(Command):
+    identifier = 0x0E
     data_length = 1
 
     def __init__(self):
